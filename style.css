@@ -1,0 +1,81 @@
+
+html, body {
+  position: relative;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1.6875;
+
+  background-image: url('./kosmos.jpg');
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+
+
+header {
+    position: absolute;
+    max-width: 368px;
+    left: 40%;
+    width: 368px;
+    text-align: center;
+}
+
+.container {
+ 
+    display: flex;
+    width: 800px;
+    height: 600px;
+
+    align-items: center;
+
+
+}
+
+.dom-example {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-right: -50%;
+}
+
+h1 {
+
+
+  font-size: 70px;
+  padding: 20px 0;
+  color: #fff;
+  text-shadow: 3px 3px 1px black;
+
+}
+
+
+h2 {
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 1px black;
+}
+
+button {
+
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background-color:rgba(235, 74, 235, 0.4);
+  border-radius: 10px;
+  cursor:pointer ;
+  color: #fff;
+  font-size: 18px;
+  border-color: #fff;
+  box-shadow:3px 3px 1px black ;
+  
+
+}
+
+button:hover {
+  background-color: rgb(141, 17, 190);
+  opacity: 0.8;
+  transition: 0.2s ease-in;
+}
+
+
