@@ -15,7 +15,7 @@ html, body {
 header {
     position: absolute;
     max-width: 368px;
-    left: 40%;
+    left: 35%;
     width: 368px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ header {
 .dom-example {
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 35%;
     margin-right: -50%;
 }
 
